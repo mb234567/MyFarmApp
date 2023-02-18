@@ -1,0 +1,26 @@
+<template name="EA">
+    <div class="modal" tabindex="-1" id="EAModal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Edit Profile</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="input-group mb-3">
+                    <input type="hidden" id="editID">
+                </div> 
+                <div class="input-group">
+                    <span class="input-group-text">Name And Species</span>
+                    <input id="name" type="text" aria-label="First name" class="form-control">
+                    <input id="species" type="text" aria-label="Last name" class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary js-editanimal">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+</template>

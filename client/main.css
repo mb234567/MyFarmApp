@@ -1,0 +1,59 @@
+body {
+  padding: 10px;
+  font-family: sans-serif; 
+  background-repeat: no-repeat;
+} 
+
+
+
+#PImage {
+  height: 170px; 
+  width: 170px;  
+  border-radius: 50%;
+  background-position: center; 
+  border: 2px solid green; 
+  box-shadow: 0 0 20px lightgreen;
+} 
+
+.VPic {
+  height: 80px; 
+  width: 80px;
+}  
+
+.js-del {
+  cursor: pointer;
+} 
+.js-del:hover{
+  color: red;
+}
+
+
+
+.cardm {  
+  height: 400px; 
+  width: 300px; 
+  color: white;
+  border: 2px solid green;  
+  background-image: url(https://www.teahub.io/photos/full/288-2885801_background-design-animated-gif-12-animated-nature-gif.gif); 
+  background-size: cover; 
+  background-position: center; 
+  cursor: pointer;
+}  
+.cardm:hover {
+    box-shadow: 0 0 100px lightgreen; 
+    border-radius: 22px;
+} 
+
+.Lpic {
+  height: 80px; 
+  width: 80px; 
+  border: 2px black; 
+  border-radius: 50%;
+}  
+
+.js-edit {
+  cursor: pointer;
+} 
+.js-edit:hover {
+  color: blue;
+}

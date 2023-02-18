@@ -1,0 +1,26 @@
+<template name="VP">
+    <div class="modal modal-lg" tabindex="-1" id="VModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <img id="viewProfile" class="VPic"  alt="">
+                        </div>
+                        <div class="col-lg-8">
+                            <p class="fs-1" id="viewName">Animal Name</p>
+                            <p class="fs-3" id="viewSpecies">Species</p> 
+                            <input type="hidden" id="conid">
+                            <i class="bi bi-file-earmark-x js-del"></i> 
+                            <i class="bi bi-pencil-square js-edit"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>

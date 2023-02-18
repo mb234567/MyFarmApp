@@ -1,0 +1,14 @@
+<template name="LP">
+    <div class="row">
+        {{#each profile}}
+        <div class="col-lg-4 text-center">
+            <div class="cardm m-4 p-3">
+              <img class="Lpic"  src="{{profilep}}" alt=""> 
+              <p class="fs-3"> Name : {{animal}}</p> 
+              <p class="fs-3"> Species : {{species}}</p>
+              <i class="bi bi-binoculars js-view"></i>
+            </div>
+         </div>
+        {{/each}}
+    </div>
+</template>

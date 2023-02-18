@@ -1,0 +1,31 @@
+<template name="AP">
+    <div class="modal fade" id="AModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center mb-3">
+                        <div class="col-lg-6 text-center overflow-hidden">
+                            <img id="PImage" src="profile.png" alt="">
+                        </div>
+                    </div>
+                    <div class="input-group mb-3">
+                        <span class="input-group-text">image</span>
+                        <input id="image" type="text" class="form-control" placeholder="Image URL" aria-label="image">
+                    </div>
+                    <div class="input-group">
+                        <span class="input-group-text">Name And Species</span>
+                        <input id="name" type="text" aria-label="First name" class="form-control">
+                        <input id="species" type="text" aria-label="Last name" class="form-control">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger js-save">Save Profile</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</template>
